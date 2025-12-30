@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Somoye | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+
+<body>
+    <main class="split-landing">
+        <section class="split-side mobile-side" id="mobileLink">
+            <div class="split-content">
+                <h2>Mobile<br>Developer</h2>
+                <p>Crafting seamless iOS & Android experiences.</p>
+                <div class="cta-arrow">→</div>
+            </div>
+            <div class="overlay"></div>
+        </section>
+
+        <div class="center-identity">
+            <div class="profile-frame">
+                <img src="assets/images/profile.jpg" alt="Profile" class="profile-img">
+            </div>
+            <h1>I Build Solutions</h1>
+            <p>Select a universe to explore</p>
+        </div>
+
+        <section class="split-side geo-side" id="geoLink">
+            <div class="split-content">
+                <h2>Geospatial<br>Developer</h2>
+                <p>Mapping data to real-world insights.</p>
+                <div class="cta-arrow">←</div>
+            </div>
+            <div class="overlay"></div>
+        </section>
+    </main>
+
+    <!-- Detail Views -->
+    <div id="mobile-portfolio" class="portfolio-view mobile-theme hidden">
+        <button class="btn-close" id="closeMobile">×</button>
+        <div class="container">
+            <header class="section-header">
+                <h2 style="color: var(--mobile-primary)">Mobile Developer</h2>
+                <div class="contact-bar">
+                    <span>Somoye Christopher Adedeji</span>
+                    <span>Abeokuta, Ogun State</span>
+                    <span>+234-803-403-6018</span>
+                    <span>adedejisomoye1@gmail.com</span>
+                </div>
+                <br>
+                <p>Skilled Flutter Developer with 3.5+ years of experience delivering performant cross-platform apps
+                    using scalable architecture. Proficient in Riverpod, Bloc, and GetX, with strengths in UI/UX, API
+                    integrations, ML model deployment, and offline-first apps.</p>
+            </header>
+
+            <section>
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">Dart (Advanced)</div>
+                    <div class="skill-item">Flutter</div>
+                    <div class="skill-item">Clean Architecture</div>
+                    <div class="skill-item">Riverpod/Bloc/GetX</div>
+                    <div class="skill-item">Firebase</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">CI/CD</div>
+                    <div class="skill-item">SQLite</div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Experience</h3>
+                <div class="experience-list">
+                    <div class="experience-item" style="border-left-color: var(--mobile-primary)">
+                        <h3>Mobile Developer (Remote)</h3>
+                        <span class="company">Acceede | Lagos, Nigeria</span>
+                        <span class="date">March 2024 – Present</span>
+                        <ul>
+                            <li>Developed and launched a cross-platform school management app system (Teacher & Parent
+                                apps) on Google Play & App Store using Flutter/MVVM, streamlining admin processes by
+                                30%.</li>
+                            <li>Optimized performance with GetX and Dio, reducing crashes by 75% and load times by 40%.
+                            </li>
+                            <li>Integrated secure payment gateways achieving 99.9% transaction success rates.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item" style="border-left-color: var(--mobile-primary)">
+                        <h3>Mobile Dev & ML Engineer</h3>
+                        <span class="company">Skrind | Remote</span>
+                        <span class="date">February 2024 – January 2025</span>
+                        <ul>
+                            <li>Built a medical diagnostics app with Flutter & Bloc, incorporating a computer vision
+                                system (90% accuracy).</li>
+                            <li>Designed scalable FastAPI & Docker backend for secure medical data handling.</li>
+                            <li>Ensured offline functionality for reliability in low-connectivity areas.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item" style="border-left-color: var(--mobile-primary)">
+                        <h3>Mobile Developer</h3>
+                        <span class="company">Milsat Technologies LTD | Abuja</span>
+                        <span class="date">July 2023 – August 2024</span>
+                        <ul>
+                            <li>Led development of geospatial apps (LOCI, VCN), driving 50% revenue increase.</li>
+                            <li>Improved census data collection accuracy by 40%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Featured Projects</h3>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-img" style="background: linear-gradient(to bottom right, #3b82f6, #1e40af)">
+                        </div>
+                        <div class="project-content">
+                            <h3>"Bolt-like" Transport App</h3>
+                            <div class="tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Mapbox</span>
+                                <span class="tag">Real-time</span>
+                            </div>
+                            <p>Currently developing a geospatial mobile application for transport navigation and fleet
+                                management.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-img" style="background: linear-gradient(to bottom right, #60a5fa, #2563eb)">
+                        </div>
+                        <div class="project-content">
+                            <h3>Devotional App</h3>
+                            <div class="tags">
+                                <span class="tag">Provider</span>
+                                <span class="tag">SQLite</span>
+                                <span class="tag">TTS</span>
+                            </div>
+                            <p>Feature-rich app with 4 Bible versions, text-to-speech, and journaling. Prioritizing
+                                accessibility.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-img" style="background: linear-gradient(to bottom right, #2563eb, #1d4ed8)">
+                        </div>
+                        <div class="project-content">
+                            <h3>Logistics Navigation System</h3>
+                            <div class="tags">
+                                <span class="tag">MVVM</span>
+                                <span class="tag">Mapbox API</span>
+                            </div>
+                            <p>Driver navigation app with real-time route optimization and offline support.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="geo-portfolio" class="portfolio-view geo-theme hidden">
+        <button class="btn-close" id="closeGeo">×</button>
+        <div class="container">
+            <header class="section-header">
+                <h2 style="color: var(--geo-primary)">Geospatial AI Engineer</h2>
+                <div class="contact-bar">
+                    <span>Geospatial Data Analysis</span>
+                    <span>Remote Sensing</span>
+                    <span>Machine Learning</span>
+                </div>
+                <br>
+                <p>Results-driven Geospatial AI Engineer with a B.Tech in Remote Sensing (GPA 4.25/5.00). Expertise in
+                    machine learning, flood mapping (SAR), and AI-driven health diagnostics. Passionate about advancing
+                    Geospatial AI to solve real-world problems.</p>
+            </header>
+
+            <section>
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">Python (Advanced)</div>
+                    <div class="skill-item">Google Earth Engine</div>
+                    <div class="skill-item">TensorFlow/PyTorch</div>
+                    <div class="skill-item">ArcGIS/QGIS</div>
+                    <div class="skill-item">GeoPandas/Shapely</div>
+                    <div class="skill-item">PostGIS</div>
+                    <div class="skill-item">Remote Sensing (SAR)</div>
+                    <div class="skill-item">FastAPI/Docker</div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Experience</h3>
+                <div class="experience-list">
+                    <div class="experience-item" style="border-left-color: var(--geo-primary)">
+                        <h3>Geospatial Mobile Developer</h3>
+                        <span class="company">Milsat Technologies LTD | Abuja</span>
+                        <span class="date">July 2023 – August 2024</span>
+                        <ul>
+                            <li>Maintained Veterinary Council of Nigeria’s mobile app, enabling location-based tracking
+                                of doctors.</li>
+                            <li>Integrated geospatial features for mapping/tracking to improve operational efficiency.
+                            </li>
+                            <li>Contributed to robust geospatial database initiatives.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item" style="border-left-color: var(--geo-primary)">
+                        <h3>Machine Learning Tutor</h3>
+                        <span class="company">Developers Students Club | Ondo</span>
+                        <span class="date">March 2020 – December 2021</span>
+                        <ul>
+                            <li>Designed ML curriculum achieving 85% student satisfaction.</li>
+                            <li>Ranked top 15% in Kaggle and Zindi Africa competitions (terrain analysis, image
+                                classification).</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Featured Projects</h3>
+                <div class="project-grid">
+                    <!-- Project 1: LOCI -->
+                    <article class="project-card">
+                        <div class="project-img map-pattern-topo"></div>
+                        <div class="project-content">
+                            <h3>LOCI: Precision Census & Addressing</h3>
+                            <div class="tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Mapbox GL</span>
+                                <span class="tag">PostGIS</span>
+                            </div>
+                            <p><strong>Revolutionizing data collection in unmapped regions.</strong> We replaced
+                                paper-based census methods with a spatially-aware mobile system, improving location
+                                accuracy by 40% using constrained validation logic and offline-first data
+                                synchronization.</p>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Skrind -->
+                    <article class="project-card">
+                        <div class="project-img map-pattern-grid"></div>
+                        <div class="project-content">
+                            <h3>Skrind: Geo-Tagged Computer Vision</h3>
+                            <div class="tags">
+                                <span class="tag">TensorFlow Lite</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Geohashing</span>
+                            </div>
+                            <p><strong>Integrating AI at the edge.</strong> While primarily a medical diagnostic tool
+                                (90% accuracy), this system geo-tags diagnostic results to create real-time 'disease
+                                heatmaps,' allowing authorities to visualize outbreak clusters instantly.</p>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: FleetOps -->
+                    <article class="project-card">
+                        <div class="project-img map-pattern-dots"></div>
+                        <div class="project-content">
+                            <h3>Real-Time Logistics Optimization</h3>
+                            <div class="tags">
+                                <span class="tag">OSRM</span>
+                                <span class="tag">Directions API</span>
+                                <span class="tag">Dart</span>
+                            </div>
+                            <p><strong>Solving the 'Last Mile' problem in Lagos.</strong> A custom navigation solution
+                                that handles complex street networks and offline rerouting, reducing driver delivery
+                                times through intelligent pathfinding algorithms.</p>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: DIPS Replica -->
+                    <article class="project-card">
+                        <img src="assets/images/geo_dips_stereonet.png" alt="DIPS Replica GUI" class="project-img"
+                            style="object-position: top;">
+                        <div class="project-content">
+                            <h3>Desktop Geological Analysis</h3>
+                            <div class="tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">PyQt</span>
+                                <span class="tag">Matplotlib</span>
+                            </div>
+                            <p><strong>Stereonet Projection & Fault Analysis.</strong> A replica of the
+                                industry-standard DIPS software, built to perform detailed kinematic slope analysis and
+                                visualize planar/wedge failures using Python and PyQt.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section>
+                <h3>Education</h3>
+                <div class="experience-list">
+                    <div class="experience-item" style="border-left-color: var(--geo-primary)">
+                        <h3>B.Tech in Remote Sensing</h3>
+                        <span class="company">Federal University of Technology Akure</span>
+                        <span class="date">Jan 2018 – Dec 2023 | GPA: 4.25 / 5.00</span>
+                        <ul>
+                            <li>Relevant Coursework: Digital Image Processing, Satellite Remote Sensing, Python
+                                Programming, Structural Geology.</li>
+                            <li>First Place, DITCH PLASTIC HACKATHON (Geospatial AI for waste mapping).</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

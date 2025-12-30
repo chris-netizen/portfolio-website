@@ -1,0 +1,59 @@
+:root {
+  /* Core Colors */
+  --bg-dark: #0f1115;
+  --bg-panel: #161b22;
+  --text-main: #e6e6e6;
+  --text-muted: #a1a1aa;
+
+  /* Mobile Persona Colors */
+  --mobile-primary: #3b82f6; /* Electric Blue */
+  --mobile-glow: rgba(59, 130, 246, 0.5);
+
+  /* Geospatial Persona Colors */
+  --geo-primary: #10b981; /* Emerald Green */
+  --geo-glow: rgba(16, 185, 129, 0.5);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --blur-amt: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--blur-amt));
+  -webkit-backdrop-filter: blur(var(--blur-amt));
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+}
