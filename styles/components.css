@@ -273,3 +273,43 @@
   align-items: center;
   gap: 5px;
 }
+
+/* Responsive Components */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .section-header p {
+    font-size: 1rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr; /* Stack cards */
+    gap: 20px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(110px, 1fr)
+    ); /* Smaller skill tags */
+  }
+
+  .contact-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-close {
+    top: 15px;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+  }
+}
