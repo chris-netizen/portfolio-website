@@ -259,6 +259,45 @@
   border-color: rgba(16, 185, 129, 0.2);
 }
 
+/* Image Gallery/Carousel */
+.project-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--geo-primary) rgba(255, 255, 255, 0.1);
+}
+
+.project-gallery::-webkit-scrollbar {
+  height: 6px;
+}
+
+.project-gallery::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.project-gallery::-webkit-scrollbar-thumb {
+  background-color: var(--geo-primary);
+  border-radius: 10px;
+}
+
+.gallery-img {
+  height: 200px;
+  width: auto;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.02);
+  border-color: var(--geo-primary);
+}
+
 /* Contact Bar */
 .contact-bar {
   display: flex;
